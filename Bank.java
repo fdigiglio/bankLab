@@ -9,8 +9,9 @@ public class Bank{
     }
 
     //Constructor
-    public Bank(double pBalance){
+    public Bank(double pBalance, double pInterest){
         this.balance = pBalance;
+        this.interest = pInterest;
     }
 
     //Setter Method 
